@@ -17,5 +17,9 @@ class LandingController extends Controller
     public function Domicilio()
     {
         return view('Landing.Domicilio');
+    }public function ejemplo()
+    {
+        return view('Landing.ejemplo');
     }
+
 }
